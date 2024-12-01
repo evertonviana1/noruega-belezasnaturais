@@ -1,0 +1,579 @@
+body {
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9bc3e7;
+}
+
+header {
+    background-color: #920505;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.t5 {
+    font-size: 1.0rem;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+main {
+    padding: 20px;
+}
+
+.nav-destacado {
+    font-size: 1.3rem;
+    transition: 0.3s linear;
+}
+
+.nav-destacado:hover {
+    border-bottom: 5px solid rgb(6, 3, 70);
+    cursor: pointer;
+    padding-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #920505;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.boxinfo .container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.boxinfo .container .fig1 {
+    flex: 1 1 45rem;
+}
+
+.boxinfo .container .fig1 img {
+    width: 75%;
+}
+
+.boxinfo .container .texto1 {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.boxinfo .container .texto1 .p1 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: black;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.boxinfo2 .container2 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.boxinfo2 .container2 .fig2 {
+    flex: 1 1 45rem;
+}
+
+.boxinfo2 .container2 .fig2 img {
+    width: 50%;
+}
+
+.boxinfo2 .container2 .texto2 {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.boxinfo2 .container2 .texto2 .p2 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: black;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.box1 .container3 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.box1 .container3 .fig3 {
+    flex: 1 1 45rem;
+}
+
+.box1 .container3 .fig3 img {
+    width: 50%;
+}
+
+.box1 .container3 .texto3 {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.box1 .container3 .texto3 .p3 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: black;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.box2 .container4 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.box2 .container4 .fig4 {
+    flex: 1 1 45rem;
+}
+
+.box2 .container4 .fig4 img {
+    width: 50%;
+}
+
+.box2 .container4 .texto4 {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.box2 .container4 .texto4 .p4 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: black;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.box3 .container5 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.box3 .container5 .fig5 {
+    flex: 1 1 45rem;
+}
+
+.box3 .container5 .fig5 img {
+    width: 50%;
+}
+
+.box3 .container5 .texto5 {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.box3 .container5 .texto5 .p5 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: black;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.box4 .container6 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.box4 .container6 .fig6 {
+    flex: 1 1 45rem;
+}
+
+.box4 .container6 .fig6 img {
+    width: 50%;
+}
+
+.box4 .container6 .texto6 {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.box4 .container6 .texto6 .p6 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: black;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.box5 .container7 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.box5 .container7 .img1 {
+    flex: 1 1 45rem;
+    padding-top: 3px;
+}
+
+.box5 .container7 .img1 img {
+    width: 70%;
+}
+
+.box5 .container7 .texto7 {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.box5 .container7 .texto7 .p7 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: black;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.box6 .container8 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.box6 .container8 .img2 {
+    flex: 1 1 45rem;
+    padding-top: 3px;
+}
+
+.box6 .container8 .img2 img {
+    width: 50%;
+}
+
+.box6 .container8 .texto8 {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.box6 .container8 .texto8 .p8 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: black;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.modalreceita {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    gap: 20px;
+    z-index: 4;
+    position: fixed;
+    top: 50%;
+    left: -40%;
+    transform: translate(-50%, -50%);
+    transition: left 0.5s linear;
+}
+
+.modalreceita .receita1 {
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    background: #F8F8FF;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.modalreceita .receita1 .receitasalmao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.modalreceita .receita1 .img3 {
+    padding: 1rem;
+}
+
+.modalreceita .receita1 .img3 img {
+    width: 100%;
+}
+
+.modalreceita .receita1 .lista1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.modalreceita .receita2 {
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    background: #F8F8FF;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.modalreceita .receita2 .receitafenalar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.modalreceita .receita2 .img4 {
+    padding: 1rem;
+}
+
+.modalreceita .receita2 .img4 img {
+    width: 100%;
+}
+
+.modalreceita .receita2 .lista2 {
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.modalreceita .receita3{
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    background: #F8F8FF;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.modalreceita .receita3 .receitarakfisk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.modalreceita .receita3 .img5{
+    padding: 1rem;
+}
+
+.modalreceita .receita3 .img5 img{
+    width: 100%;
+}
+
+.modalreceita .receita3 .lista3{
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.maskreceita{
+    visibility: hidden;
+    z-index: 3;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vw;
+    background: linear-gradient(109deg, rgba(255, 255, 255, 0.99) 20%, rgb(206, 187, 187) 30%, rgb(144, 145, 189) 75%)
+}
+
+.btn {
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.0rem;
+    color: white;
+    padding: 1rem 1rem;
+    border: none;
+    transition: 0.3s linear;
+    background-color: rgb(60, 60, 173);
+    text-decoration: none;
+}
+
+.btn:hover {
+    letter-spacing: 0.1rem;
+}
+
+.title-mask {
+    text-align: center;
+    color: #920505;
+    text-transform: uppercase;
+    font-size: 2rem;
+    background-color: rgb(247, 243, 243);
+}
+
+.title-mask span {
+    color: rgb(33, 33, 182);
+}
+
+.modal1 {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 20px;
+    z-index: 4;
+    position: fixed;
+    top: 50%;
+    left: -30%;
+    transform: translate(-50%, -50%);
+    transition: left 0.5s linear;
+}
+
+.modal2 {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 20px;
+    z-index: 4;
+    position: fixed;
+    top: 50%;
+    left: -30%;
+    transform: translate(-50%, -50%);
+    transition: left 0.5s linear;
+}
+
+.modal3 {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 20px;
+    z-index: 4;
+    position: fixed;
+    top: 50%;
+    left: -30%;
+    transform: translate(-50%, -50%);
+    transition: left 0.5s linear;
+}
+
+.modal4 {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 20px;
+    z-index: 4;
+    position: fixed;
+    top: 50%;
+    left: -30%;
+    transform: translate(-50%, -50%);
+    transition: left 0.5s linear;
+}
+
+.modalgaleria {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    gap: 20px;
+    z-index: 4;
+    position: fixed;
+    top: 50%;
+    left: -40%;
+    transform: translate(-50%, -50%);
+    transition: left 0.5s linear;
+}
+
+.modalgaleria .auroraboreal {
+    width: 635px;
+    height: 500px;
+    border: none;
+}
+
+.titulogaleria span {
+    color: rgb(33, 33, 182);
+}
+
+.titulogaleria {
+    color: #920505;
+}
+
+.mask {
+    visibility: hidden;
+    z-index: 3;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vw;
+    background: linear-gradient(109deg, rgba(255, 255, 255, 0.99) 20%, rgb(206, 187, 187) 30%, rgb(144, 145, 189) 75%)
+}
+
+.mask2 {
+    visibility: hidden;
+    z-index: 3;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vw;
+    background: linear-gradient(109deg, rgba(255, 255, 255, 0.99) 20%, rgb(206, 187, 187) 30%, rgb(144, 145, 189) 75%)
+}
+
+.mask3 {
+    visibility: hidden;
+    z-index: 3;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vw;
+    background: linear-gradient(109deg, rgba(255, 255, 255, 0.99) 20%, rgb(206, 187, 187) 30%, rgb(144, 145, 189) 75%)
+}
+
+.mask4 {
+    visibility: hidden;
+    z-index: 3;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vw;
+    background: linear-gradient(109deg, rgba(255, 255, 255, 0.99) 20%, rgb(206, 187, 187) 30%, rgb(144, 145, 189) 75%)
+}
+
+.maskgaleria {
+    visibility: hidden;
+    z-index: 3;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vw;
+    background: linear-gradient(109deg, rgba(255, 255, 255, 0.99) 20%, rgb(206, 187, 187) 30%, rgb(144, 145, 189) 75%)
+}
